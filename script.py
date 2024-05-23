@@ -9,10 +9,10 @@ import json
 from avatar import func5
 
 #The necessary headers to mask the script and gain access to the site
-#Bearer is the token of one's in-game account. 
+#Bearer is the token of one's in-game account. This is an invalid token. Obtain your own token
 session = Session()
 session.headers["User-Agent"] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 12.2; rv:91.0) Gecko/20100101 Firefox/91.0"
-session.headers["Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsInVzZXJfaWQiOjI2Nzg1NTl9.eyJpc3MiOiJldmVyc2tpZXMuY29tIiwiYXVkIjoiYXV0aCIsImp0aSI6Ik45eEFyUFRxT2kwWWxBaDRHazQzVW00Y1hjdDFORVd4IiwiaWF0IjoxNjQ4MzM4OTU1Ljk4Nzg5NywibmJmIjoxNjQ4MzM4NjU1Ljk4Nzg5OSwiZXhwIjoxNjQ4NDI1MzU1fQ.IHAoAhYlxxxQ9EAiEQM2l1xs1DpxXzSU2jkDSD-89-A"
+session.headers["Authorization"] = "Bearer ey..."
 
 #Navigation link
 render = "https://cdn.everskies.com/render/"
