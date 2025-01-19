@@ -1,6 +1,6 @@
 FUNCTIONALITY: obtains a user's online presence and avatar.
 
-A script that I used to run on a virtual reality game(https://www.everskies.com), 
+A script that I used to run on a virtual reality game(everskies.com), 
 which would scrape lists of data. 
 This script was further integrated with Discord's API so that a Discord bot would send 
 the chosen elements from the list into a discord server on command.
