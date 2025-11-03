@@ -1,15 +1,13 @@
-FUNCTIONALITY: obtains a user's online presence and avatar.
+FUNCTIONALITY: Retrieves user information.
 
-A script that I used to run on a virtual reality game(everskies.com), 
-which would scrape lists of data. 
-This script was further integrated with Discord's API so that a Discord bot would send 
-the chosen elements from the list into a discord server on command.
-The reason for this integration was so that the user could obtain certain in-game info fast 
-and easy without having to manually run the script or read results off a command line.
-With this script you could simply monitor in-game users from within the Discord app without actually 
-having to be in the game/website. 
-Furthermore, this script was hosted online on https://replit.com to keep the bot active 24/7.
-The script can be modified to run locally.
+This is a script I constructed and ran on a game web application to scrape lists of data. 
+I integrated it with the Discord API so a Discord bot could post selected items from those lists into a server on command. 
+The goal was to let users quickly access specific in-game information without manually running the script or reading command-line output.
 
-CAUTION ---> script HAS NOT been updated since Mar 17, 2022
-DISCLAIMER ---> This is for educational purposes only! I do not condone malicious intentions!
+With this setup, you can monitor in-game users directly from an external environment (the Discord app) without being on the game/website. The script was hosted on Replit to keep the bot running 24/7, and it can also be modified to run locally.
+
+EXPLANATION — This project was part of my online reconnaissance and surface-level penetration testing. 
+It focused on collecting information and performing checks without exploiting vulnerabilities or accessing restricted data.
+
+CAUTION — The script has not been updated since March 17, 2022; some necessary components are outdated (e.g., headers), but the overall architecture should remain valid.
+DISCLAIMER — For educational purposes only. ***I do not condone malicious use.***
